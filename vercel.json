@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "package.json",
+      "use": "@vercel/next"
+    }
+  ],
+  "env": {
+    "BUSINESS_NAME": "Marys Denist",
+    "TEMPLATE_ID": "62c19420-4e9d-48d6-ba53-a1beac1b70c2",
+    "MODULES": "Booking,Gallery,social,staff",
+    "THEME": "Light"
+  }
+}
